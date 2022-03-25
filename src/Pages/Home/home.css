@@ -1,0 +1,145 @@
+
+body{
+    background-color: white;
+}
+.small-5-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.bg-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-600);
+    width: 19%;
+    height: 8rem;
+}
+
+.middle-txt {
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: var(--white);
+    text-align: center;
+}
+
+/*      Main Image Content */
+
+.main-img-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.about-web {
+    position: absolute;
+    top: 30rem;
+    right: 5rem;
+    color: white;
+    font-size: 30px;
+}
+
+.img-txt {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.shop-btn {
+    margin-top: .9rem;
+    font-size: 1.3rem;
+    padding: .5rem .7rem;
+}
+
+.shop-btn:hover {
+    font-size: 1.5rem;
+    transition: .5s;
+    box-shadow: 5px 5px 5px var(--blue-600);
+}
+
+.main-img {
+    width: 100%;
+    height:91vh;
+}
+
+#avilable-brands-title{
+    margin-top: 3rem;
+}
+.btm-img{
+    width: 15rem;
+
+}
+.btm-img-and-title-container:hover{
+    color: purple;
+    margin-top: -2rem;
+}
+
+#iphone-btm-pic{
+    height: 15rem;
+}
+.btm-img1{
+    width: 28rem;
+    height: 14.5rem;
+}
+
+/*          bottom Image */
+
+.collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.c-container {
+    display: flex;
+    background-color: rgb(205, 206, 189);
+    width: 30rem;
+    padding: .5rem;
+    flex-grow: 1;
+}
+
+.new-arrivals {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.sony-coll {
+    margin-top: 4rem;
+}
+
+.collection-para {
+    margin: 0 1rem 1rem 1rem;
+}
+
+@media screen and (max-width:754px) {
+    html {
+        font-size: 14px;
+    }
+
+    .about-web {
+        text-align: center;
+        color: var(--white);
+        position: absolute;
+        top: 5rem;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .middle-txt {
+        font-size: 12px;
+    }
+}

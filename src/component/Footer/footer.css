@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita:ital@1&display=swap');
+
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    color: white;
+    background-color: #232F3E;
+}
+
+.main-footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    color: white;
+    background-color: #232F3E;
+}
+
+#get-to-know-us{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    margin-top: 0;
+}
+
+.footer-linktitle{
+    line-height: 2;
+}
+.footer-img{
+    height: 200px;
+}
+
+.footer-links1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+
+#footer-sublinks2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    margin-top: 0;
+}
+.footer-contactlink{
+    color: white;
+    font-weight: bold;
+}
+
+#my-name{
+    font-family: 'Sansita', sans-serif;
+}
