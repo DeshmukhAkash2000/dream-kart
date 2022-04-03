@@ -1,0 +1,80 @@
+.filter-main-container{
+    width: 22rem;
+    background-color: #f0f0f0;
+    padding-left: .5rem ;
+    padding-top: 1rem;
+    border-right: 2px solid;
+    /* position: sticky;
+    top: 4.7rem;
+    height: 10vh; 
+     z-index: 1; */
+}
+
+hr{
+    margin-top: 1rem;
+}
+
+.clear-btn{
+    padding: .5rem;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: .5rem;
+    margin-right: .7rem;
+}
+
+.clear-btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.filter-text-with-clear-button{
+    display: flex;
+    justify-content: space-between
+}
+
+.slider-filter{
+    margin-top: 2rem;
+}
+
+.slider-input{
+    width: 20rem;
+}
+
+.label-title{
+    margin-left: .5rem;
+}
+
+.price-range{
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery-options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.delivery-filter{
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.available-brands{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.rating-filter{
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.sort-by-price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    line-height: 2;
+}
