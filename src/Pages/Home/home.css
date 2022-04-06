@@ -2,6 +2,7 @@
 body{
     background-color: white;
 }
+
 .small-5-images {
     width: 100%;
     display: flex;
@@ -28,12 +29,12 @@ body{
 
 /*      Main Image Content */
 
+
 .main-img-container {
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin-top: 1rem;
     position: relative;
 }
 
@@ -69,10 +70,15 @@ body{
 
 #avilable-brands-title{
     margin-top: 3rem;
+    text-align: center;
 }
 .btm-img{
     width: 15rem;
 
+}
+
+.home-brand-name{
+    text-align: center;
 }
 .btm-img-and-title-container:hover{
     color: purple;

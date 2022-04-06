@@ -1,0 +1,64 @@
+/*          Header navigation bar */
+
+.navigation-bar {
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .side-nav-section{
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .title {
+    font-family: 'Sansita', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    color: black;
+  }
+  #lower-title{
+    font-family: 'Sansita', sans-serif;
+    margin-left: 23px;
+  }
+  
+  .navtitle-container{
+    margin-left: 2rem;
+  }
+  .title:hover{
+    color: red;
+  }
+  .search-bar {
+    width: 40%;
+    font-size: 1.2rem;
+    padding: .5rem;
+    margin: 1rem 0;
+  }
+  
+  .login-btn {
+    font-size: 1.2rem;
+    padding: .5rem .8rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .badge-wishlist {
+    font-size: 1.1rem;
+    background-color: var(--blue-600);
+    padding: .2rem .4rem;
+    color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    left: 1.3rem;
+    top: -1rem;
+  }
+  

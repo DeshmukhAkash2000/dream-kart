@@ -1,5 +1,5 @@
 import { Home } from "./Home/home";
 import { Wishlist } from "./Wishlist/wishlist"
+import { AllProduct } from "./AllProduct/AllProduct";
 
-export {Home}
-export {Wishlist}
+export {Home, Wishlist, AllProduct}

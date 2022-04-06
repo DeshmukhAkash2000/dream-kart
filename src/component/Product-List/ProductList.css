@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+.main-container-productlist{
+    width: 85%;
+}
+
+.smartphone-images{
+    height: 25rem;
+}
+
+.sub-container{
+    padding: 3rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.sub-container:hover{
+    color:black;
+    background-color: white;
+}
+
+.img-container{
+    width: 20rem;
+    border-radius: 2rem;
+    display: flex;
+}
+
+.product-heart-icon{
+    font-size: 2rem;
+    border: transparent;
+    margin-left: 3rem;
+}
+
+.product-heart-icon:focus{
+    color: red;
+}
+
+.smartphone-images{
+    border-radius: 2rem;
+}
+.about-product{
+    line-height: 2;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 2rem;
+    font-style: italic;
+    color: blue;
+}
+
+
+.product-list-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.OriginalPrice{
+    text-decoration: line-through;
+}
+
+.right-section{
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 1.1rem; ;
+}
+
+.saving{
+    font-style: italic;
+}
+
+.add-to-card-btn{
+    padding: .7rem;
+    color: black;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+.add-to-card-btn:hover{
+    background-color: white;
+    /* color: white; */
+    font-weight: bold;
+}
+
+.product-detail-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

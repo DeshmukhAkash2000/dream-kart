@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
-import {Home,Wishlist} from "./Pages/index";
+import {Home,Wishlist,AllProduct} from "./Pages/index";
 import {Navigation,Footer} from "./component/index";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/Wishlist' element={<Wishlist/>}></Route>
+        <Route path='/AllProduct' element={<AllProduct/>}></Route>
       </Routes>
       <Footer/>
     </div>
