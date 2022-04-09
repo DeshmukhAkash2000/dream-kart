@@ -21,8 +21,8 @@ body{
 }
 
 .sub-container:hover{
-    color:black;
-    background-color: white;
+    color:var( --black-900);
+    background-color: var(--white);
 }
 
 .img-container{
@@ -38,7 +38,7 @@ body{
 }
 
 .product-heart-icon:focus{
-    color: red;
+    color: var(--red-900);
 }
 
 .smartphone-images{
@@ -52,7 +52,7 @@ body{
 .price{
     font-size: 2rem;
     font-style: italic;
-    color: blue;
+    color: var(--blue-900);
 }
 
 
@@ -75,16 +75,23 @@ body{
     font-style: italic;
 }
 
-.add-to-card-btn{
+.add-to-card-btn,.go-to-btn {
     padding: .7rem;
-    color: black;
+    color: var( --black-900);
     font-weight: bold;
     background-color: antiquewhite;
 }
 
+.go-to-btn {
+    padding: .7rem;
+    background-color: grey;
+    color: var(--white);
+    font-weight: bold;
+}
+
+
 .add-to-card-btn:hover{
-    background-color: white;
-    /* color: white; */
+    background-color: var(--white);
     font-weight: bold;
 }
 

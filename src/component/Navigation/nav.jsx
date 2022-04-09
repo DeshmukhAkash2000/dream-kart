@@ -1,11 +1,14 @@
 import {Link} from "react-router-dom";
 import "./nav.css"
 import {useProductContext} from "../Context/protuctContext";
+import { useWishListCartContext } from "../Context/Cart-And-Wishlist";
 
 const Navigation = () => {
 
   const { productDispatch } = useProductContext();
-
+  const { wishListCartValues:{
+    wishlist, cart
+  }} = useWishListCartContext();
     return (
       <>
         <nav className="navigation-bar">
@@ -23,16 +26,16 @@ const Navigation = () => {
               </button>
             </li>
             <li>
-              <a className="wishlist-btn btn" href="/wishlist/wishlist.html">
-                &#9825;<span className="badge-wishlist">5</span>
-              </a>
+              <Link className="wishlist-btn btn" to="/WishList">
+                &#9825;<span className="badge-wishlist" style={{display:wishlist.length>0? "": "none"}}>{wishlist.length}</span>
+              </Link>
 
             </li>
             <li>
-              <a className="add-cart-btn btn" href="/my-cart/my-cart.html">
+              <Link className="add-cart-btn btn" to="/cart">
                 {" "}
-                &#128722; <span className="badge-wishlist">2</span>
-              </a>
+                &#128722; <span className="badge-wishlist" style={{display:cart.length>0? "": "none"}}>{cart.length}</span>
+              </Link>
             </li>
           </ul>
         </nav>

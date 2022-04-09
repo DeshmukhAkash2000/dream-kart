@@ -8,6 +8,7 @@
     top: 0;
     z-index: 1;
   }
+
   .side-nav-section{
     display: flex;
     width: 15rem;
@@ -23,6 +24,7 @@
     margin-top: 1.2rem;
     color: black;
   }
+
   #lower-title{
     font-family: 'Sansita', sans-serif;
     margin-left: 23px;
@@ -31,9 +33,11 @@
   .navtitle-container{
     margin-left: 2rem;
   }
+
   .title:hover{
-    color: red;
+    color: var(--red-900);
   }
+
   .search-bar {
     width: 40%;
     font-size: 1.2rem;
@@ -45,6 +49,7 @@
     font-size: 1.2rem;
     padding: .5rem .8rem;
   }
+  
   .btn {
     font-size: 1.8rem;
     font-weight: 600;
