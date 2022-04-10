@@ -4,10 +4,6 @@
     padding-left: .5rem ;
     padding-top: 1rem;
     border-right: 2px solid;
-    /* position: sticky;
-    top: 4.7rem;
-    height: 10vh; 
-     z-index: 1; */
 }
 
 hr{
@@ -16,18 +12,19 @@ hr{
 
 .clear-btn{
     padding: .5rem;
-    color: white;
+    color: var(--white);
     font-weight: bold;
-    background-color: blue;
+    background-color: var(--blue-900);
     border-radius: .5rem;
     margin-right: .7rem;
 }
 
 .clear-btn:hover{
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black-900);
     font-weight: bold;
 }
+
 .filter-text-with-clear-button{
     display: flex;
     justify-content: space-between

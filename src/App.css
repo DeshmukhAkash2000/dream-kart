@@ -118,6 +118,12 @@
   --gray-500:gray;
   --gray-900:darkgray;
   --blue-600:rgb(255, 0, 221);
+  --blue-900:blue;
+  --aqua-900:aqua;
+  --tomato-900:tomato;
+  --purple-900:purple;
+  --red-900:red;
+  --black-900:black;
 }
 button{
   cursor: pointer;

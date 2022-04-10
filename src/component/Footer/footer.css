@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    color: white;
+    color: var(--white);
     background-color: #232F3E;
 }
 
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    color: white;
+    color: var(--white);
     background-color: #232F3E;
 }
 
@@ -34,7 +34,7 @@
 .footer-links1{
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -45,7 +45,7 @@
     margin-top: 0;
 }
 .footer-contactlink{
-    color: white;
+    color: var(--white);
     font-weight: bold;
 }
 

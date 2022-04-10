@@ -1,0 +1,26 @@
+.wishlist-container{
+    display: flex;
+    padding: 1rem;
+    border: 2px solid;
+    width: 40rem;
+    margin-top:2rem ;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+.wishlist-item-price{
+    font-size: 2rem;
+    color: --purple-900;
+}
+
+.remove-from-cart-btn{
+    background-color: var(--tomato-900);
+    color: var(--white);
+    font-weight: bold;
+    padding: .7rem;
+    margin-top: .5rem;
+}
+
+.remove-from-cart-btn:hover{
+    background-color: var(--white);
+    color: var(--red-900);
+}
