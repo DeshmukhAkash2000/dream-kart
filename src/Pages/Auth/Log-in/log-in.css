@@ -1,0 +1,91 @@
+.login-pic{
+    height: 40vh;
+}
+
+.login-main-container{
+    width: 60%;
+    height: 50vh;
+    background-color: rgb(244, 248, 248);
+    box-shadow: 5px 5px 5px 5px rgb(204, 200, 200);
+
+
+}
+
+.upper{
+    height: 62.2vh;
+    background-color: royalblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-btn{
+    border: transparent;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.new-account-text{
+    margin-top: 1rem;
+}
+
+.login-main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-side-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.log-in-input{
+    padding: .5rem; 
+    border-radius: 1.5rem;
+    width: 20rem;
+    margin-top: 2rem;
+
+}
+
+.login-page-btn{
+    width: 6rem;
+     padding: .7rem;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.lower-section-pics{
+    height: 2rem;
+}
+
+.log-in-lower-pics{
+    margin-left: .5rem;
+}
+
+.lower-section{
+    display: flex;
+}
+
+.lower-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+

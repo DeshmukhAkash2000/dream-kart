@@ -1,8 +1,7 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
-import {Home, WishList, AllProduct} from "./Pages/index";
+import {Home, WishList, AllProduct, CartPage, Login, SignUp} from "./Pages/index";
 import {Navigation,Footer} from "./component/index";
-import {RendingCart} from "./component/Cart/Cart";
 
 function App() {
   return (
@@ -10,11 +9,11 @@ function App() {
       <Navigation/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        {/* <Route path='/Wishlist' element={<Wishlist/>}></Route> */}
         <Route path='/AllProduct' element={<AllProduct/>}></Route>
-        <Route path="wishlist" element={<WishList />}/>
-        <Route path="cart" element={<RendingCart />}/>
-        {/* <Route path=''/> */}
+        <Route path="/wishlist" element={<WishList />}/>
+        <Route path="/cart" element={<CartPage />}/>
+        <Route path="/Login" element={<Login />}/>
+        <Route path="/SignUp" element={<SignUp />}/>
       </Routes>
       <Footer/>
     </div>
