@@ -22,7 +22,7 @@ const Navigation = () => {
           <ul className="side-nav-section">
             <li>
               <button className="login-btn">
-                <a href="/Login">Login</a>
+                <Link to="/Login">Login</Link>
               </button>
             </li>
             <li>
