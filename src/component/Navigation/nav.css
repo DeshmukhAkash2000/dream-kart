@@ -67,3 +67,9 @@
     top: -1rem;
   }
   
+  @media  screen and (max-width: 920px) {
+    html{
+      font-size: 8px;
+    }
+  }
+

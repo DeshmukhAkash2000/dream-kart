@@ -12,6 +12,7 @@ const Navigation = () => {
     return (
       <>
         <nav className="navigation-bar">
+          
           <div className="navtitle-container">
           <Link className="title" to="/">
             DreamKKart

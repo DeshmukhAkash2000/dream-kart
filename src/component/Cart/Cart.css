@@ -11,7 +11,7 @@
     margin-top: 1rem;
 }
 
-.container-heading{
+.cart-container-heading{
     background-color: var(--aqua-900);
     text-align: center;
     padding: 1rem;
@@ -61,4 +61,20 @@
 .quantity-decrease-btn{
     padding: .2rem;
     border-radius: 40%;
+}
+
+.main-product-container{
+    padding: 10.3rem;
+}
+
+.cart-container-heading{
+    background-color: aqua;
+    width: 20rem;
+    padding: 1rem;
+    border: 2px solid;
+    margin-top:-8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 2rem;
 }

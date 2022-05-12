@@ -26,8 +26,8 @@ const RendingCart = () => {
 
   return (
     <div className="main-product-container">
-      <div className="product-container">
-        <div className="container-heading">
+      <div className="cart-product-container">
+        <div className="cart-container-heading">
           <h2>Your Cart {cart.length}</h2>
           {cart.length === 0 ? (
             <Link to="/AllProduct">
