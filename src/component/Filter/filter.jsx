@@ -63,22 +63,22 @@ const Filter = () => {
           <div className="rating-filter">
             <h3>Ratings</h3>
             <div className="rating1">
-              <input onChange={() => { productDispatch({ type: "RATING", payload: "4" }) }} type="checkbox" value="4 and above" />
+              <input onChange={() => { productDispatch({ type: "RATING", payload: "4" }) }} type="radio" id="rating1" name="radio" value="4 and above" />
               <label className="label-title">4 Star & Above</label>
             </div>
 
             <div className="rating2">
-              <input onChange={() => { productDispatch({ type: "RATING", payload: "3" }) }} type="checkbox" value="3 and above" />
+              <input onChange={() => { productDispatch({ type: "RATING", payload: "3" }) }} type="radio" id="rating1" name="radio" value="4 and above" />
               <label className="label-title">3 Star & Above</label>
             </div>
 
             <div className="rating3">
-              <input onChange={() => { productDispatch({ type: "RATING", payload: "2" }) }} type="checkbox" value="2 and above" />
+              <input onChange={() => { productDispatch({ type: "RATING", payload: "2" }) }} type="radio" id="rating1" name="radio" value="4 and above" />
               <label className="label-title">2 Star & Above</label>
             </div>
 
             <div className="rating4">
-              <input onChange={() => { productDispatch({ type: "RATING", payload: "1" }) }} type="checkbox" value="1 and above" />
+              <input onChange={() => { productDispatch({ type: "RATING", payload: "1" }) }} type="radio" id="rating1" name="radio" value="4 and above" />
               <label className="label-title">1 Star & Above</label>
             </div>
           </div>
