@@ -1,6 +1,7 @@
 import "./Cart.css";
 import { Link } from "react-router-dom";
 import { useWishListCartContext } from "../Context/Cart-And-Wishlist";
+import { toast } from "react-toastify";
 
 const RendingCart = () => {
   const {
@@ -71,7 +72,8 @@ const RendingCart = () => {
                           dispatchWishListCart({
                             type: "ADD_TO_WISHLIST",
                             payload: item,
-                          })
+                          },toast.success("added to wishlist") 
+                          )
                         }
                       >Add to wishlist</button>
                     )}
@@ -80,7 +82,8 @@ const RendingCart = () => {
                         dispatchWishListCart({
                           type: "REMOVE_FROM_CART",
                           payload: item,
-                        })
+                        },toast.error("Removed from cart") 
+                        )
                       }
                       className="remove-from-cart-btn"
                     >Reomve From Cart</button>
@@ -136,7 +139,9 @@ const RendingCart = () => {
                 <h3>₹ {totalValue}</h3>
               </div>
               <hr />
-              <button className="place-order-btn">PLACE ORDER</button>
+              <Link to="/paymentInt">
+               <button className="place-order-btn">PLACE ORDER</button>
+              </Link>
             </div>
           </div>
         </div>

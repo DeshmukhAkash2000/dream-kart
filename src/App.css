@@ -101,9 +101,6 @@
   margin: 1rem;
 }
 
-/* .App {
-  text-align: center;
-} */
 
 *{
   margin: 0;
@@ -135,4 +132,7 @@ ul,ol{
   list-style: none;
 }
 
+p{
+  font-weight: bold;
+}
 

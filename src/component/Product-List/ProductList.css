@@ -44,6 +44,12 @@ body{
 .smartphone-images{
     border-radius: 2rem;
 }
+
+.smartphone-images:hover{
+    transform: rotate(20deg);
+    transition:transform .5s;
+}
+
 .about-product{
     line-height: 2;
     font-weight: bold;
